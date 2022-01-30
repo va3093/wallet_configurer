@@ -1,0 +1,102 @@
+.content h1 {
+  font-size: 46px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 60px;
+  line-height: 60px;
+}
+
+.content {
+  margin: 100px auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.networks {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 500px;
+  border: 1px solid;
+  border-color: #37352f;
+  border-radius: 4px;
+}
+
+.networks.disabled {
+  opacity: 30%;
+  pointer-events: none;
+}
+
+.connectWalletButton {
+  font-size: 16px;
+  padding: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+  border: 2px solid;
+  border-color: #5c4a13;
+  cursor: pointer;
+  background-color: #ffebbc;
+}
+
+.connectWalletButton:hover {
+  background-color: #ffdc8a;
+}
+
+.networkButtonRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.networkButtonRow:hover {
+  background-color: #f6f2e9;
+  color: black;
+}
+
+.networkButton {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  cursor: pointer;
+  flex-grow: 2;
+}
+
+.networkInfoButton {
+  margin: 16px;
+}
+
+.logo {
+  width: 33px;
+  height: 33px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}
+
+.networkButtonRowDivider {
+  width: calc(100% - 32px);
+  height: 1px;
+  background-color: #c4c4c4;
+  margin: auto;
+}
+
+.addressWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 500px;
+}
+
+.addressWrapper > h5 {
+  font-size: 16px;
+}
+
+.addressWrapper > span {
+  padding: 16px;
+  text-align: center;
+  background-color: #edeae2;
+  border-radius: 4px;
+}

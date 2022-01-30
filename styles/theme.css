@@ -1,0 +1,7 @@
+@import "./reset.css";
+
+html {
+  background-color: #faf7f0;
+  color: #37352f;
+  font-family: "Roboto Mono", sans-serif;
+}
